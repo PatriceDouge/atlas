@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
   padding: 0;
@@ -13,4 +17,10 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.side-menu {
+  height: 100vh;
+  background-color: #09192F;
+  color: white;
 }
